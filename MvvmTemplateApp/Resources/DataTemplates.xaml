@@ -1,0 +1,12 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:ContactListApp.Resources"
+                    xmlns:vm="clr-namespace:ContactListApp.ViewModel"
+                    xmlns:v="clr-namespace:ContactListApp.View">
+    <DataTemplate DataType="{x:Type vm:MainViewModel}">
+        <v:MainView/>
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type vm:SecondViewModel}">
+        <v:SecondView/>
+    </DataTemplate>
+</ResourceDictionary>
